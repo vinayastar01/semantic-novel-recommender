@@ -82,7 +82,8 @@ pip install -r requirements.txt
    python gradio-dashboard.py
    ```
 
-   The dashboard will be available at `http://127.0.0.1:7860/`.
+   The dashboard will be available at [Click here to open the dashboard](http://127.0.0.1:7860/)
+
 
 ##  Images 
 ![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/2f63da9f-a6bd-4852-80df-b054ad8b401a)
