@@ -84,16 +84,15 @@ pip install -r requirements.txt
 
    The dashboard will be available at `http://127.0.0.1:7860/`.
 
-## Adding Images to Your README
+##  Images 
+![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/2f63da9f-a6bd-4852-80df-b054ad8b401a)
+![Screenshot 2025-04-29 030620](https://github.com/user-attachments/assets/165cd8d9-7d0d-4ef6-9ee8-50e54b156567)
 
-You can add images to your README by placing them in a directory (e.g., `images/`) and then linking to them as follows:
 
-```markdown
-![I![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/9b36a47b-4607-4769-8cec-fa0af9280a99)
-<img width="957" alt="Screenshot 2025-04-29 030630" src="https://github.com/user-attachments/assets/de644a54-3287-4f01-bb43-49fda323328e" />
 
-mage Alt Text](images/your_image.png)
-```
+
+
+
 
 ## License
 
