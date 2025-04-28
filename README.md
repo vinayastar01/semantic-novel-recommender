@@ -38,7 +38,7 @@ This project was developed using Python 3.11, and the following dependencies are
 - `python-dotenv`
 - `langchain-community`
 - `langchain-opencv`
-- `langchain-chroma`
+- `langchain-FAISS`
 - `transformers`
 - `gradio`
 - `notebook`
