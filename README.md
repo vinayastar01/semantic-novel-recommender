@@ -1,7 +1,7 @@
 
-# Semantic Book Recommender with LLMs
+# Semantic NOVEL Recommender with LLMs
 
-Welcome to the **Semantic Book Recommender** project! This system uses Large Language Models (LLMs) to provide book recommendations based on natural language descriptions. Whether you're looking for a book about a specific theme or genre, this project allows users to get the most relevant books from a given query.
+Welcome to the **Semantic Novel Recommender** project! This system uses Large Language Models (LLMs) to provide book recommendations based on natural language descriptions. Whether you're looking for a NOVEL about a specific theme or genre, this project allows users to get the most relevant books from a given query.
 
 ## Project Overview
 
@@ -9,11 +9,11 @@ The project is built around the concept of semantic (vector) search and integrat
 
 1. **Text Data Cleaning**  
    - Clean and preprocess the raw data for effective use in semantic search.  
-   - Code located in: `data-exploration.ipynb`
+   - Code located in: `analysis.ipynb`
 
 2. **Semantic (Vector) Search**  
    - Create a vector database to perform similarity searches. Users can input natural language queries to find the most similar books.  
-   - Code located in: `vector-search.ipynb`
+   - Code located in: `vector_search.ipynb`
 
 3. **Text Classification (Zero-shot Classification)**  
    - Classify books into categories such as "fiction" or "non-fiction" using zero-shot classification.  
@@ -55,21 +55,22 @@ pip install -r requirements.txt
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/semantic-book-recommender.git
-   cd semantic-book-recommender
+   git clone [https://github.com/vinayastar01/semantic-novel-recommender].git
+   cd Book-recommendations 
    ```
 
 2. **Create a `.env` file** in the root directory with your OpenAI API key:
 
    ```text
    OPENAI_API_KEY=your_openai_api_key_here
+   HF_API_KEY=your_huggingface_api_key_here
    ```
 
 3. **Download the Data** from Kaggle. Detailed instructions on how to download the dataset can be found in the repository.
 
 4. **Run the Notebooks** in sequence to:
-   - Clean the data (`data-exploration.ipynb`)
-   - Build the vector database (`vector-search.ipynb`)
+   - Clean the data (`analysis.ipynb`)
+   - Build the vector database (`vector_search.ipynb`)
    - Classify books (`text-classification.ipynb`)
    - Perform sentiment analysis (`sentiment-analysis.ipynb`)
 
@@ -81,25 +82,24 @@ pip install -r requirements.txt
    python gradio-dashboard.py
    ```
 
-   The dashboard will be available at `http://localhost:7860`.
+   The dashboard will be available at `http://127.0.0.1:7860/`.
 
 ## Adding Images to Your README
 
 You can add images to your README by placing them in a directory (e.g., `images/`) and then linking to them as follows:
 
 ```markdown
-![Image Alt Text](images/your_image.png)
+![I![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/9b36a47b-4607-4769-8cec-fa0af9280a99)
+<img width="957" alt="Screenshot 2025-04-29 030630" src="https://github.com/user-attachments/assets/de644a54-3287-4f01-bb43-49fda323328e" />
+
+mage Alt Text](images/your_image.png)
 ```
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Acknowledgements
 
-- [freeCodeCamp](https://www.freecodecamp.org/)
-- [OpenAI](https://openai.com/)
-- [Kaggle](https://www.kaggle.com/)
 
 ## Contributing
 
