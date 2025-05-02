@@ -3,6 +3,13 @@
 
 Welcome to the **Semantic Novel Recommender** project! This system uses Large Language Models (LLMs) to provide book recommendations based on natural language descriptions. Whether you're looking for a NOVEL about a specific theme or genre, this project allows users to get the most relevant books from a given query.
 
+##  Images 
+![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/2f63da9f-a6bd-4852-80df-b054ad8b401a)
+![Screenshot 2025-04-29 030620](https://github.com/user-attachments/assets/165cd8d9-7d0d-4ef6-9ee8-50e54b156567)
+
+
+
+
 ## Project Overview
 
 The project is built around the concept of semantic (vector) search and integrates several components:
@@ -83,13 +90,6 @@ pip install -r requirements.txt
    ```
 
    The dashboard will be available at [Click here to open the dashboard](http://127.0.0.1:7860/)
-
-
-##  Images 
-![Screenshot 2025-04-29 030514](https://github.com/user-attachments/assets/2f63da9f-a6bd-4852-80df-b054ad8b401a)
-![Screenshot 2025-04-29 030620](https://github.com/user-attachments/assets/165cd8d9-7d0d-4ef6-9ee8-50e54b156567)
-
-
 
 
 
